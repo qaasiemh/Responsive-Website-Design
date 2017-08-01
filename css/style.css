@@ -1,0 +1,277 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Zilla Slab', serif;
+	margin: 0;
+	padding: 0;
+}
+
+/*===================== Header =====================*/
+
+header {
+	background-color: #4490cd;
+}
+
+.toggle, [id="drop"] {
+  display: none;
+}
+
+nav {
+	padding-left: 30px;
+	background-color: #326d9c;
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+}
+
+nav ul li a {
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	padding-left: 10px;
+}
+
+nav ul li a:hover {
+	color: lightgrey;
+}
+
+.logo {
+	float: right;
+	margin-right: 30px;
+	margin-top: -70px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+ .banner {
+	height: 500px;
+}
+
+ .banner img {
+ 	float: left;
+ 	margin-left: 350px;
+ 	margin-top: 40px;
+ }
+
+ .banner-text {
+ 	width:  30%;
+ 	float: left;
+ 	font-size: 30px;
+ 	padding-left: 50px;
+ 	padding-top: 100px;
+ 	margin-top: 30px;
+ } 
+
+ .banner-text a {
+ 	display: block;
+ 	background-color: white;
+ 	padding: 7px 5px;
+ 	text-decoration: none;
+ 	font-weight: bold;
+ 	margin-top: 10px;
+ 	width: 230px;
+ 	text-align: center;
+ 	color: black;
+ }
+
+ .banner-text a:hover {
+ 	background-color: lightgrey;
+ 	color: white;
+ }
+
+ .banner-text p {
+ 	color: white;
+ }
+
+
+
+/*===================== Main =====================*/
+
+
+main {
+	margin: 30px;
+}
+
+.web-left {
+	float: left;
+}
+
+.who-am-i {
+	display: block;
+    margin: 0 auto;
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+main p {
+	display: block;
+	width: 47.584187408491946%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+.circle-container {
+	width: 47.584187408491946%;
+	height: 90px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.circle {
+	width: 88px;
+	border: 4px solid #4490cd;
+	border-radius: 50%;
+	text-align: center;
+	padding: 10px;
+}
+
+.web-right {
+	float: right;
+	margin-top: -100px;
+}
+
+/*===================== Footer =====================*/
+
+footer {
+	background-color: #326d9c;
+	padding: 10px 0;
+	text-align: center;
+	color: white;
+}
+
+
+/*===================== Projects Page =====================*/
+/*=========================================================*/
+
+
+.proj {
+	font-size: 100px;
+	color: white;
+	margin-top: 360px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+.small-images section {
+	display: block;
+	margin: 0 auto;
+	width: 73.20644216691069%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sect-2 {
+	padding-top: 30px;
+}
+
+
+/*===================== Contact Page =====================*/
+/*=========================================================*/
+
+
+.contact-container {
+	padding-top: 50px;
+	padding-bottom: 75px;
+}
+
+.touch {
+	font-size: 100px;
+	color: white;
+	padding-bottom: 75px;
+	padding-left: 30px;
+}
+
+.contact-1 {
+	background-color: #4490cd;
+	font-size: 20px;
+	color: white;
+	
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+.contact-2 {
+	background-color: #4490cd;
+	font-size: 20px;
+	color: white;
+	
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+.contact-1 p {
+	display: inline-block;
+	text-align: center;
+	line-height: 92px;
+	width: 100px;
+}
+
+.contact-2 p {
+	display: inline-block;
+	text-align: center;
+	line-height: 92px;
+	width: 100px;
+}
+
+.contact-1 img {
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+
+.contact-2 img {
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+
+.social {
+	display: inline-block;
+}
+
+.contact-1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.contact-2 a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

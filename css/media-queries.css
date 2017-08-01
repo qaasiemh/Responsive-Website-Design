@@ -1,0 +1,343 @@
+
+/*========== Tablet - Index Page ============*/
+
+
+@media all and (max-width: 786px) {
+	.col-md-1 {width: 8.33%;}
+	.col-md-2 {width: 16.66%;}
+	.col-md-3 {width: 25%;}
+	.col-md-4 {width: 33.33%;}
+	.col-md-5 {width: 41.66%;}
+	.col-md-6 {width: 50%;}
+	.col-md-7 {width: 58.33%;}
+	.col-md-8 {width: 66.66%;}
+	.col-md-9 {width: 75%;}
+	.col-md-10 {width: 83.33%;}
+	.col-md-11 {width: 91.66%;}
+	.col-md-12 {width: 100%;}
+
+	.banner img {
+ 	float: left;
+ 	margin-left: 80px;
+ 	margin-top: 40px;
+ }
+
+.banner-text {
+ 	width:  56%;
+ 	float: left;
+ 	font-size: 30px;
+ 	padding-left: 50px;
+ 	padding-top: 100px;
+ 	margin-top: 30px;
+ } 
+
+}
+
+
+
+
+
+
+/*========== Tablet - Projects Page ============*/
+
+@media all and (max-width: 786px) {
+	.col-md-1 {width: 8.33%;}
+	.col-md-2 {width: 16.66%;}
+	.col-md-3 {width: 25%;}
+	.col-md-4 {width: 33.33%;}
+	.col-md-5 {width: 41.66%;}
+	.col-md-6 {width: 50%;}
+	.col-md-7 {width: 58.33%;}
+	.col-md-8 {width: 66.66%;}
+	.col-md-9 {width: 75%;}
+	.col-md-10 {width: 83.33%;}
+	.col-md-11 {width: 91.66%;}
+	.col-md-12 {width: 100%;}
+
+	.small-images img {
+		width: 100%;
+		padding: 0 2px;
+	}
+
+	.small-images section {
+		display: block;
+		margin: 0 auto;
+		width: 77%;
+	}
+
+	.small-images img {
+		width: 175px;
+	}
+}
+
+/*========== Cellphone - Projects Page ============*/
+
+
+@media all and (max-width: 360px) {
+	.col-sm-1 {width: 8.33%;}
+	.col-sm-2 {width: 16.66%;}
+	.col-sm-3 {width: 25%;}
+	.col-sm-4 {width: 33.33%;}
+	.col-sm-5 {width: 41.66%;}
+	.col-sm-6 {width: 50%;}
+	.col-sm-7 {width: 58.33%;}
+	.col-sm-8 {width: 66.66%;}
+	.col-sm-9 {width: 75%;}
+	.col-sm-10 {width: 83.33%;}
+	.col-sm-11 {width: 91.66%;}
+	.col-sm-12 {width: 100%;}
+
+	.proj {
+	font-size: 85px;
+	color: white;
+	margin-top: 360px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	}
+
+	.small-images img {
+		width: 230px;
+	}
+
+}
+
+/*========== Tablet - Contact Page ============*/
+
+
+@media all and (max-width: 786px) {
+	.col-md-1 {width: 8.33%;}
+	.col-md-2 {width: 16.66%;}
+	.col-md-3 {width: 25%;}
+	.col-md-4 {width: 33.33%;}
+	.col-md-5 {width: 41.66%;}
+	.col-md-6 {width: 50%;}
+	.col-md-7 {width: 58.33%;}
+	.col-md-8 {width: 66.66%;}
+	.col-md-9 {width: 75%;}
+	.col-md-10 {width: 83.33%;}
+	.col-md-11 {width: 91.66%;}
+	.col-md-12 {width: 100%;}
+
+	.contact-1 {
+		background-color: #4490cd;
+		font-size: 20px;
+		color: white;
+		
+		width: 90%;
+		display: flex;
+		justify-content: space-between;
+		margin: 0 auto;
+		padding-bottom: 30px;
+	}
+
+	.contact-2 {
+		background-color: #4490cd;
+		font-size: 20px;
+		color: white;
+		
+		width: 90%;
+		display: flex;
+		justify-content: space-between;
+		margin: 0 auto;
+		padding-bottom: 30px;
+	}
+}
+
+/*========== 640px Screen size ============*/
+
+@media all and (max-width: 640px) {
+	.menu {
+		display: none;
+	}
+
+	.toggle {
+		display: block;
+		line-height: 70px;
+		color: white;
+		font-size: 25px;
+		text-decoration: none;
+		border: none;
+		width: 40px;
+	}
+
+	.toggle:hover {
+		color: lightgrey;
+	}
+
+	[id^="drop"]:checked+ul {
+		display: block;
+		background-color: white;
+		position: absolute;
+		top: 70px;
+		left: -20px;
+		z-index: 2;
+		width: 150px;
+		height: 178px;
+		text-align: center;
+	}
+
+	.menu a {
+		color: #4490cd;
+	}
+
+}
+
+/*========== Cellphone - Contact Page ============*/
+
+@media all and (max-width: 360px) {
+	.col-sm-1 {width: 8.33%;}
+	.col-sm-2 {width: 16.66%;}
+	.col-sm-3 {width: 25%;}
+	.col-sm-4 {width: 33.33%;}
+	.col-sm-5 {width: 41.66%;}
+	.col-sm-6 {width: 50%;}
+	.col-sm-7 {width: 58.33%;}
+	.col-sm-8 {width: 66.66%;}
+	.col-sm-9 {width: 75%;}
+	.col-sm-10 {width: 83.33%;}
+	.col-sm-11 {width: 91.66%;}
+	.col-sm-12 {width: 100%;}
+
+	.touch {
+		font-size: 85px;
+		color: white;
+		padding-bottom: 75px;
+		padding-left: 30px;
+		text-align: center;
+	}
+
+
+	.contact-1 {
+		background-color: #4490cd;
+		font-size: 20px;
+		color: white;
+		width: 57%;
+		display: block;
+		margin: 0 auto;
+		padding-bottom: 0px;
+	}
+
+	.contact-2 {
+		background-color: #4490cd;
+		font-size: 20px;
+		color: white;
+		width: 57%;
+		display: block;
+		margin: 0 auto;
+		padding-bottom: 0px;
+	}
+
+	.social {
+		padding-bottom: 30px;
+		margin: 0 auto;
+	}
+}
+
+
+
+/*========== Cellphone - Index Page ============*/
+
+
+@media all and (max-width: 360px) {
+	.col-sm-1 {width: 8.33%;}
+	.col-sm-2 {width: 16.66%;}
+	.col-sm-3 {width: 25%;}
+	.col-sm-4 {width: 33.33%;}
+	.col-sm-5 {width: 41.66%;}
+	.col-sm-6 {width: 50%;}
+	.col-sm-7 {width: 58.33%;}
+	.col-sm-8 {width: 66.66%;}
+	.col-sm-9 {width: 75%;}
+	.col-sm-10 {width: 83.33%;}
+	.col-sm-11 {width: 91.66%;}
+	.col-sm-12 {width: 100%;}
+
+	.menu {
+		display: none;
+	}
+
+	.toggle {
+		display: block;
+		line-height: 70px;
+		color: white;
+		font-size: 25px;
+		text-decoration: none;
+		border: none;
+		width: 40px;
+	}
+
+	.toggle:hover {
+		color: lightgrey;
+	}
+
+	[id^="drop"]:checked+ul {
+		display: block;
+		background-color: white;
+		position: absolute;
+		top: 70px;
+		left: -20px;
+		z-index: 2;
+		width: 150px;
+		height: 178px;
+		text-align: center;
+	}
+
+	.menu a {
+		color: #4490cd;
+	}
+
+	.banner-text {
+ 	    float: left;
+	    font-size: 25px;
+	    padding-left: 30px;
+	    padding-top: 0px;
+	    margin-top: 30px;
+	    text-align: center;
+	}
+
+	.banner-text a {
+		display: block;
+	    background-color: white;
+	    padding: 7px 5px;
+	    text-decoration: none;
+	    font-weight: bold;
+	    width: 210px;
+	    text-align: center;
+	    color: black;
+	    margin: 0 auto;
+	    margin-top: 7px;
+ 	}
+
+ 	.banner img {
+	 	float: left;
+	 	margin-left: 95px;
+	 	margin-top: 40px;
+	 }
+
+	.circle-container {
+		display: block;
+		margin: 0 auto;
+		margin-top: 30px;
+		height: 440px;
+		width: 29%
+	}
+
+	.web-right {
+	    float: right;
+	    margin-top: -45px;
+	}
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
